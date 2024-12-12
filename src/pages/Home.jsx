@@ -1,9 +1,14 @@
-
+import "../styles.css";
 
 
 const Home = () => {
     return (
-        <div>Home</div>
+        <section>
+           <div className='journal-container'> 
+            <h1 className='header'> Welcome to your Gratitude Journal</h1>
+           </div>
+        </section>
+
     )
 }
 
