@@ -48,3 +48,19 @@ a {
     color: black;
     align-self: center;
 }
+
+.journal-entry {
+    padding: 15px;
+    background-color: #0b3641;
+    color: #94c2ce;
+    display: grid;
+    grid-template-columns: minmax(100px, 200px);
+    grid-template-rows: 50px 24px 100px min-content;
+    gap: 15px;
+}
+
+.journal-list {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 350px));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 350px));
+    gap: 20px;
+}

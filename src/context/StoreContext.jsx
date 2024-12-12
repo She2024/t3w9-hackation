@@ -10,7 +10,7 @@ export const StoreProvider = ( )=> {
         <StoreContext.Provider value = {{ store, setStore, searchState, setSearchState, isStoreUpdated, setIsStoreUpdated }}>
             {children}
         </StoreContext.Provider>
-    )
+
 }
 
 export const useStore = () => useContext(StoreContext);
