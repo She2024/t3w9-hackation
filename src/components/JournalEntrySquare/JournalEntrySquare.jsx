@@ -1,4 +1,4 @@
-import '../>styles.css';
+import '/home/she2024/webdev2024/T3/t3w9-hackathon/src/styles.css';
 
 const JournalEntrySquare = () => {
     return (

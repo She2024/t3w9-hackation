@@ -4,13 +4,18 @@ import "../styles.css";
 
 const Home = () => {
     return (
-        <section>
+        <section className="home">
            <div className='journal-container'> 
             <h1 className='header'> Welcome to your Gratitude Journal</h1>
+            
             <div className ="journal-list">
                 <JournalEntrySquare />
                 <JournalEntrySquare />
                 <JournalEntrySquare />
+                <JournalEntrySquare />
+                <JournalEntrySquare />
+                <JournalEntrySquare />
+                
             </div>
            </div>
         </section>

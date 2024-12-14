@@ -1,0 +1,19 @@
+
+.create_fields {
+    grid-area: body;
+    display: grid;
+    grid-template-rows: .05fr .05fr .95fr;
+    height: max-content;
+}
+
+.input {
+    height: 30px;
+}
+
+.label {
+    color: darkgray;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
